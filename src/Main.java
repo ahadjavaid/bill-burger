@@ -28,7 +28,7 @@ public  class Main {
         System.out.println("_____________");
 
         MealOrder deluxeMeal = new MealOrder("deluxe","7-up","chilli");
-        deluxeMeal.addBurgerToppings("AVOCADO","BACON","LETTUCE","CHEESE","MAYO");
+        deluxeMeal.addBurgerToppings("AVOCADO","BACON","LETTUCE","CHEESE","MAYO", "PICKLE");
         deluxeMeal.setDrinkSize("SMALL");
         deluxeMeal.printItemizedList();
 
