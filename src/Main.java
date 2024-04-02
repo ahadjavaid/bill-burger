@@ -28,13 +28,18 @@ public  class Main {
         System.out.println("_____________");
 
         MealOrder deluxeMeal = new MealOrder("deluxe","7-up","chilli");
-        deluxeMeal.addBurgerToppings("AVOCADO","BACON","LETTUCE","CHEESE","MAYO", "PICKLE");
+        deluxeMeal.addBurgerToppings("AVOCADO","BACON","LETTUCE","CHEESE","MAYO");
         deluxeMeal.setDrinkSize("SMALL");
         deluxeMeal.printItemizedList();
 
         // Item item = new Item("Buger", "Fillet", 760);
         // item.setSize("Large");
         // item.printItem();
+
+        MealOrder ahmed = new MealOrder("deluxe","Next-Cola","Mayo");
+        ahmed.addBurgerToppings("Cheese", "Mayo", "Atomic");
+        ahmed.printItemizedList();
+
     }
 }
 
