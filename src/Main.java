@@ -40,6 +40,9 @@ public  class Main {
         ahmed.addBurgerToppings("Cheese", "Mayo", "Atomic");
         ahmed.printItemizedList();
 
+        MealOrder ahad = new MealOrder();
+        ahad.addBurgerToppings("Chipotle", "Mayo", "Garlic");
+        ahad.printItemizedList();
     }
 }
 
